@@ -1,6 +1,8 @@
 // It inserts a document in the collection school
 use db_test_0;
 
+db.school.drop();
+
 db.school.insertOne({
   name: "Holberton School";
 })
