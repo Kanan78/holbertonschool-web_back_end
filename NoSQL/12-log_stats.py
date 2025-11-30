@@ -6,6 +6,8 @@ Displays some stats about Nginx logs stored in MongoDB
 from pymongo import MongoClient
 
 def main():
+    """It provides some stats about Nginx logs stored in MongoDB"""
+
     # Connect to MongoDB
     client = MongoClient('mongodb://localhost:27017')
     db = client.logs
