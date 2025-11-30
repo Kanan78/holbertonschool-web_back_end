@@ -1,6 +1,6 @@
 // It inserts a document in the collection school
-use db_test_0
+use db_test_0;
 
 db.school.insertOne({
-  name: "Holberton School"
+  name: "Holberton School";
 })
